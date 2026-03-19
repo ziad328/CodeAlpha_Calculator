@@ -2,6 +2,10 @@
 
 It's a task in the CodeAlpha internship and it's Fully functional calculator built for web. 
 
+## Deployment
+
+https://ziad328.github.io/CodeAlpha_Calculator/
+
 ## Tech Stack
 
 * **Framework:** React.js
