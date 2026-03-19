@@ -1,6 +1,6 @@
-# iOS Clone Calculator
+# Calculator
 
-Fully functional clone of the iPhone calculator built for web. 
+Fully functional calculator built for web. 
 
 ## Tech Stack
 
@@ -11,7 +11,7 @@ Fully functional clone of the iPhone calculator built for web.
 
 ## Features
 
-* **Authentic UI:** iOS theme with circular buttons, precise color mapping, and active state animations.
+* **Authentic UI:** Dark gray theme with circular buttons, precise color mapping, and active state animations.
 * **Full Arithmetic Logic:** Supports addition, subtraction, multiplication, division, percentages, and sign toggling.
 * **Real-time Display:** Immediate feedback and comma-formatting for large numbers.
 * **Keyboard Support:** Fully operable via keyboard for a seamless desktop experience (Numpad compatible).
