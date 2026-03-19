@@ -18,26 +18,22 @@ export function Button({
   isBackspace = false,
   onClick,
 }: ButtonProps) {
-  // Exact colour values from the user
   let colourClass: string;
+  
   if (variant === 'orange') {
     colourClass = isActive
       ? 'bg-[#c1c1c0] text-[#f88d06]'
       : 'bg-[#f88d06] text-[#c1c1c0] active:bg-[#d97c06]';
   } else if (variant === 'lightGray') {
-    // Top utility buttons
     colourClass = 'bg-[#717274] text-[#c1c1c0] active:bg-[#606163]';
   } else {
-    // Number buttons
     colourClass = 'bg-[#878c8c] text-[#c1c1c0] active:bg-[#727777]';
   }
 
-  // Use the new Datatype font (it will fall back gracefully, but usually it needs tracking normal)
   const sharedBase =
     'select-none cursor-pointer text-xl sm:text-2xl font-normal leading-none transition-all duration-75 outline-none active:brightness-125';
 
   const content = isBackspace ? (
-    // Inline backspace SVG icon
     <svg
       viewBox="0 0 24 24"
       fill="currentColor"
