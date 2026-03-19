@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Datatype', 'Poppins', Roboto, 'Manrope', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #303737;
+  color: #c1c1c0;
+}
+
+/* Prevent tap highlight flash on mobile */
+button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
